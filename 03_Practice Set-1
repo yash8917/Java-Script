@@ -1,0 +1,25 @@
+let a ="Harsh"
+let b= 45
+console.log(a + b)
+console.log(typeof (a+b))
+
+//  q3
+const a1 ={
+  name: "yash",
+  section :2,
+  habbit : "singing"
+    
+  
+}
+a1["friend"] = "Gudiya"
+console.log(a1)
+
+
+// q4
+const dic={
+  wizen: "Wizen “to wither” comes from Old English wisnian, of the same meaning. Despi",
+
+ lido:"Lido “a fashionable beach resort” is the namesake of the Lido di Venezia, a chain of sandy islands in northeastern Italy that separate the Venetian Lagoon from the Adriatic Sea."
+}
+console.log(dic)
+console.log(dic.lido)
