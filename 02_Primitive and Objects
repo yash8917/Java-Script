@@ -1,0 +1,26 @@
+// PRIMITIVE DATATYPES-:
+
+// N - NULL
+// N -nUMBER
+// S - SYMBLE
+// S - STRING
+// B - BOOLEAN 
+// B - BIGINT
+// U - UNDIFINED 
+let a= null
+let b= 453;
+let c=true
+let d=BigInt("543") + BigInt("45")
+let e ="harry"
+let f = Symbol("i am a nice symble")
+console.log(a ,b,c,d,e,f)
+console.log("it tolds the type of the variable : " ,typeof e)
+
+//NOn primitive data types are -: Objects in JS
+const item ={
+  "Rohan": true,
+  "karan" : false,
+  "Raj" : 45,
+  "Muskan" : BigInt("3423")
+}
+console.log(item["Muskan"])
