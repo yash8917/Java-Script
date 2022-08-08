@@ -1,0 +1,25 @@
+// Sum of n th natural numbers
+// ------------for loop ------------  - - - - - - - - - - -
+// let sum =0 ;
+// let n =prompt("Enter the value of n :")
+// a=Number.parseInt(n)
+// for(let i =0 ; i<= n ;i++){
+//   sum +=i
+// }
+// console.log(sum)
+
+// ---------------for in loop----------------------- - - -  - - - -  -
+let obj ={
+ harsh :34,
+  yash : 345,
+Yuvraj :45,
+  Aashi:876
+}
+// for(let c in obj){
+//   console.log("the marks of the students "+ c + " are " +obj[c]  )
+  
+// }
+// ------------ for of loop----------------- - - - -  - - - -
+for(let b of "yash GUpta"){
+  console.log(b)
+}
