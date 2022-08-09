@@ -1,0 +1,25 @@
+// This is the factorial Programme with the help of the Funtions
+
+function fact(x){
+  // in the time of function call there is no need to mention the let keyword
+  let r=1;
+  while(0 < x){
+  r=r*x;
+  x--;
+  }
+  return r;
+}
+let n=prompt("Enter the Number :")
+n=Number.parseInt(n)
+let res =fact(n);
+console.log(res)
+
+
+// -------------------Another way to define the Funtion------ - -  - 
+const sum = (p , q)=>{
+  return p + q  
+}
+// function Always the first then call after that funtion
+console.log(sum(45 , 5))
+
+//  w ecan write the without argument function
