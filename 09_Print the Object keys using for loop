@@ -1,0 +1,25 @@
+// Question First number
+
+
+let marks = {
+  Basista : 89,
+  Sameer : 87,
+  Karan : 78,
+  Yash : 94
+}
+for(let i=0 ; i<Object.keys(marks).length ; i++){
+  console.log("Marks of the "+Object.keys(marks)[i] + " are : " +marks[Object.keys(marks)[i]])
+}
+// in the for loop we are compare to the lenght of the objects
+
+// -------------------------------------
+// in the print statement we use the first printing the satement (name of the objects)
+
+// ------------------------------------
+// to print the value of the key we mention the objects.Keys(marks)[i] inside the marks column
+
+
+// ---------------Using for in loop------- -- - -- -  -
+for(let i in marks){
+  console.log(i +" Marks is : "+ marks[i])
+}
