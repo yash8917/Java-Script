@@ -1,0 +1,8 @@
+//  print the correct number 
+let curNum=34;
+let i;
+while(i != curNum){
+  i=prompt("Enter the number : ")
+  console.log("Try again, Sir")
+}
+console.log("Congretulation!, You have entered the Currect Number")
