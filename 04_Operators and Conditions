@@ -10,3 +10,5 @@ console.log(a % b)
 // console.log(a b)
 console.log(a<b && a==45 )
 console.log(a<b || a==45 )
+//SONE BITWISE OPERATOR Working same as the others 
+//language
