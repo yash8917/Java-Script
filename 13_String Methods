@@ -1,0 +1,16 @@
+const { Console } = require("console")
+
+let s = "Aryawart inter college"
+console.log(s.length)
+console.log(s.toUpperCase()) 
+console.log(s.toLowerCase())
+console.log(s.slice(3 ,12 ))
+console.log(s.slice(5))
+console.log(s.replace("inter" ,"Degree"))
+console.log(s.replace(" " ,"@"))
+let friend = "CSJMU"
+console.log(s.concat( " is the part of " ,friend ," ok"))
+let f2 ="      dlkvnd  v  v   v d   d fw "
+console.log(f2.trim())
+
+// --(String is immmutable - you can not change the actual string)
