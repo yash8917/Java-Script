@@ -1,0 +1,10 @@
+let st= " online classes is not good for the lay student"
+let word ="good"
+console.log(st.includes(word)) 
+
+console.log(`The ${st} for one week` )
+console.log(st.toLowerCase())
+
+
+let str ="Please give me your note book in 5000"
+console.log(str.slice("Please give me your note book in ".length))
