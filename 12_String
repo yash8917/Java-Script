@@ -1,0 +1,20 @@
+let a="Prakher"
+console.log(a)
+let b= 'ravi'
+console.log(b)
+console.log(a[6])
+console.log(a[2])
+console.log(a[3])
+// -------------------------------------
+// -----string template----------------
+let b1 = 'yash'
+let b2 = 'Gudiya'
+let state = `${b1} is the friend of ${b2}`
+console.log(state)
+
+// -------------Escape sequence ------- - - -  -
+let s="King\'s"
+console.log(s)
+let f="rajiv\"s"
+let g="Pri\nya"
+console.log(f , g)
