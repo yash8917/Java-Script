@@ -1,0 +1,9 @@
+let arr=[12,3,45,45,3423,3,false, "Gudiya"]
+console.log(arr)
+//  arraya are mutable so we are update the value easily
+arr [0]="Nikuu"
+console.log(arr)
+// arr[20]=45
+console.log(arr[20])//it will print undefined coz index is not exist
+console.log(arr.length)
+console.log(typeof(arr)) //array is the type of object
