@@ -1,0 +1,14 @@
+let arr = [12, 34, 45, 46, 5767, 45, 3]
+let b = arr.toString()
+console.log(b)
+let c = arr.join(" _ ")
+console.log(c)
+let r = arr.pop()//pop method returs the poped element
+console.log(arr , r)
+let re = arr.push(0)      //push returns the new array legth
+console.log(arr , re)
+let s=arr.shift()  //it removes the first element of the arr and returns that element
+console.log(arr , s)
+
+let un =arr.unshift(99)  //it adds the element at the beggining of the arr and retuns the length of that arr
+console.log(arr ,un)
