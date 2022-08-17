@@ -1,0 +1,8 @@
+let a = prompt("Enter the age :")
+a=Number.parseInt(a)
+if(a >18){
+  console.log('you are validate for voting')
+}
+else{
+  console.log('Not eligible')
+}
