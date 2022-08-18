@@ -1,0 +1,32 @@
+let ar = [1, 2, 3, 4, 5, 6, 7]
+//delete is an operator not a function
+delete ar[0] //it delete that element but array lenght is the same 
+console.log(ar)
+
+let a2 =[23,3,435,45,56,768,787,756,34,2]
+let newArray= ar.concat(a2); //iit does not change the existing array
+console.log(newArray)
+
+//  sort method changes the actual array
+console.log(newArray.sort())// this is sort by the alphabetic order
+// ---------------------------------
+// if you want to sort in the assending order then you hv to write the compare function
+let compare =(a , b)=>{
+  return a-b // if you print the dessending order then you hv to specify return (b-a)
+}
+console.log(newArray.sort(compare))
+ar.reverse()
+console.log(ar)
+
+// -------------------------
+ // splice (start index ,how much values ,what element you add now  )
+// this function returns the deleted elements
+let deleteEle=ar.splice(2 ,2 ,6666,2323 ,34434)
+console.log(deleteEle)
+console.log(ar)
+
+
+// -----------------------------
+// slice it break the array in that index from where are you given the index && it does not changed the original Array it creates the new Array
+let sliceAr=ar.slice(3)  //if you mention over here (3,5) then it slice only that part
+console.log(sliceAr)
