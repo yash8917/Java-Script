@@ -1,0 +1,25 @@
+let num =[3,4,5,6,7]
+// print using for loop
+for(let i= 0; i < num.length ; i++){
+  console.log(num[i])
+}
+
+console.log("square of each element :")
+// print using for each loop
+ num.forEach((element)=>{
+   console.log(element*element)
+ })
+
+// ------------------
+let s="Yash Gupta"
+let a=Array.from(s)
+console.log(a)
+
+// ------for of loop print
+for(let i of num){
+  console.log(i)
+}
+// ------for in loop
+for(let i in num){
+  console.log(num[i])
+}
