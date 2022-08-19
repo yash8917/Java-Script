@@ -1,0 +1,24 @@
+let a1 = [43, 56, 33, 23]
+// map function returns the new array it creats that
+let a2 = a1.map((value) => {
+  console.log(value)
+  return value
+})
+console.log(a2)
+
+// -------array filter  Method->it will filter the array values with the help of our conditions->it will not change the original array     
+let a3 = [34, 45, 2, 4, 5, 12, , 234, 23, 234, 3, 1]
+let a4 = a3.filter((a) => {
+  return a < 15
+})
+console.log(a4)
+
+
+// -----Reduce function -
+// it always return the single value not array
+console.log("reduce function")
+let arr = [2, 3, 2, 4]
+let newA=arr.reduce((h1, h2)=>{
+  return h1 +h2
+})
+console.log(newA)
