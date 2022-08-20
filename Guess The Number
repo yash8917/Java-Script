@@ -1,0 +1,21 @@
+let number = Math.ceil(Math.random() * 100)
+let chance = 0;
+while (true) {
+  let enterNum = prompt("Enter the number :")
+  enterNum = Number.parseInt(enterNum)
+  if (enterNum < number) {
+    console.log("Correct Number is Greater then", enterNum)
+    chance++
+  }
+  if (enterNum > number) {
+    console.log("Correct Number is Lesser then", enterNum)
+    chance++
+  }
+  if (enterNum == number) {
+    console.log("-->Congrats! You enter the correct number. <--")
+    console.log("Correct Number is:",number)
+    console.log("Number of Chance Left:",100-chance)
+    return false;
+  }
+}
+
