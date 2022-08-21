@@ -1,0 +1,20 @@
+const freq =(letter) =>{
+  let count2={}
+  let words =letter.split(' ')
+  for(let i of words)
+    {
+      if(i in count2)
+      {
+        count2[i]+=1
+      }
+      else
+      {
+        count2[i]=1
+      }
+    }
+  return count2
+}
+
+ console.log(freq("rejection is not a failure"))
+console.log(freq("lol what lol"))
+console.log(freq(prompt("enter the string")))
