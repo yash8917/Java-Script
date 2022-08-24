@@ -1,0 +1,44 @@
+/* 
+  TODO: Write a function that sums two numbers
+  TODO: Write a function that subtracts two numbers
+  TODO: Write a function that divides two numbers.
+  TODO: Write a function that multiplies two numbers.
+  *NOTE* be sure to handle dividing by zero 😉
+  ES5 Syntax: function Add(){}
+  ES6 Syntax (Arrow function): const add = () => {}
+*/
+
+function add(a, b) {
+  return a + b;  //Add function here
+}
+
+function sub(a, b) {
+  return a - b;
+  //Subtract function here
+}
+
+function div(a, b) {
+  return a / b;
+  //Divide function here
+}
+
+function mul(a, b) {
+  return a * b;
+  //Multiply function here
+}
+
+console.log('hello from the SUM exercise',)
+console.log(add(34, 5))
+console.log(sub(34, 5))
+console.log(div(34, 5))
+console.log(mul(34, 5))
+
+const pow = (a, b) => {
+  return a ** b;
+}
+console.log(pow(2, 3))
+
+
+/*
+  TODO: create a function that console logs the result of any of the above operations.
+*/
