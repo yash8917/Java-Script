@@ -1,0 +1,48 @@
+// Objects are a :
+// key , values pair that is called Objects
+
+
+const person = {
+  name: "Yash Gupta",
+  Age: 20,
+  Student: "Gla University",
+  City: "Kanpur"
+}
+//  print with the help of . DOT
+console.log(person.Age)
+
+// Print with the help of Brakets []
+console.log(person["name"])
+console.log()
+
+console.log(person)
+
+//  Add the field's inside the object
+person.email_1st = "yash8917gupta@gmail.com";
+
+//  using brakets --->
+person['email_2nd'] ="yash.gupta_cs20@gla.ac.in"
+console.log(person)
+
+
+const person_2={
+  name :"Amit Roy",
+  city : "Delhi"
+}
+
+console.log(person_2)
+console.log()
+console.log()
+// -----------------------------------------
+
+// Creating the function And create object of the inside and use Template litrals 
+
+const introducer= (name , city) => {
+  const pers={
+    name : name,
+    city : city
+  }
+  let intro = `My name is ${pers.name} and we are from ${pers.city}`
+  return intro;
+}
+console.log(introducer('Abhinav Malik' , "Mumbai"))
