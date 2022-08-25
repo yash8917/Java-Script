@@ -40,9 +40,20 @@ console.log()
 const introducer= (name , city) => {
   const pers={
     name : name,
-    city : city
+    city : city,
+      assets: 450000,
+    liabilities: 30000,
+
+// we can also make the method inside the objects 
+    networth: function ()  {
+      return this.assets - this.liabilities
+    }
   }
-  let intro = `My name is ${pers.name} and we are from ${pers.city}`
+  const intro = `My name is ${pers.name} and we are from ${pers.city} and my networth is $${pers.networth()} USD`
   return intro;
+ 
 }
 console.log(introducer('Abhinav Malik' , "Mumbai"))
+
+
+
